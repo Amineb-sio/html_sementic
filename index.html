@@ -4,35 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mon site web">
+    <meta name="description" content="Site web">
     <title lang="en">html best-practies</title>
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="manifest" href="./font/stylesheet.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
     <header>
-        <h1 lang="en">html best-practies</h1>
+        <h1 lang="en">
+            
+        <i class="material-icons" aria-hidden="true">school</i>
+            html best-practies
+        </h1>
     </header>
 
    <main>
- 
         <section class="content-primary">
-            <h2>Détails : explication</h2>
+            <h2>Details : explication</h2>
             <p>
                 En programmation, la sémantique fait référence au sens d'une partie de code — 
                 par exemple "quel effet aura l'exécution de cette ligne de JavaScript ?", 
                 ou "quel est le rôle ou le but de cet élément HTML" (plutôt que "à quoi ressemble-t-il ?".)
             </p>
         </section>
+        <section class="content-primary">
+            <h2>Developpement web</h2>
+            <p>
+                Javascript (souvent abrégé en « JS ») est un langage de script léger, orienté objet, 
+                principalement connu comme le langage de script des pages web. 
+                Mais il est aussi utilisé dans de nombreux environnements extérieurs aux navigateurs web tels que Node.js, 
+                Apache CouchDB voire Adobe Acrobat. Le code JavaScript est interprété ou compilé à la volée (JIT).
+                C'est un langage à objets utilisant le concept de prototype, disposant d'un typage faible et dynamique qui permet de programmer suivant plusieurs paradigmes de programmation : fonctionnelle, impérative et orientée objet.
+                Apprenez-en plus sur JavaScript.
+            </p>
+        </section>
+        <section class="content-sup">
+            <h2>
+                Plus d'explication :
+                <a href="#modale"> <!-- link for modale-->
+                    <i class="material-icons" aria-hidden="true">
+                        add_box
+                    </i>
+                </a>
+            </h2>
+        </section>
 
 
         <section class="content-secondary">
-            <h2>Me contacter</h2>
+            <h2>
+                <i class="material-icons" aria-hidden="true">contact_mail</i>
+                Contact
+            </h2>
             <address>
                 <ul>
                     <li>Name : Rasmus</li>
@@ -45,7 +73,7 @@
         </section>
         
         <div class="content-button" role="region" aria-labelledby="contact supprimer">
-            <button id="contact" aria-label="contacter l'auteur" class="button-success button-succes-color">
+            <button id="contact" aria-label="contacter l'auteur" class="button-success button-success-color">
                 Nous contacter
             </button><!-- white space
             --><button id="supprimer" aria-label="supprimer l'auteur" class="button-delete button-delete-color">
@@ -57,7 +85,7 @@
             <ul>
                 <li>
                     <figure>
-                        <img src="./asset/css_original_wordmark_logo_icon_146576.png" alt="">
+                        <img src="./asset/css_original_wordmark_logo_icon_146576.png" alt="css">
                         <figcaption>
                             <h3>css</h3>
                         </figcaption>
@@ -65,7 +93,7 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="./asset/html_original_wordmark_logo_icon_146478.png" alt="">
+                        <img src="./asset/html_original_wordmark_logo_icon_146478.png" alt="html logo">
                         <figcaption>
                             <h3>html</h3>
                         </figcaption>
@@ -73,7 +101,7 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="./asset/java_original_wordmark_logo_icon_146459.png" alt="">
+                        <img src="./asset/java_original_wordmark_logo_icon_146459.png" alt="Java">
                         <figcaption>
                             <h3>Java</h3>
                         </figcaption>
@@ -81,7 +109,7 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="./asset/python_original_wordmark_logo_icon_146382.png" alt="">
+                        <img src="./asset/python_original_wordmark_logo_icon_146382.png" alt="Python logo">
                         <figcaption>
                             <h3>Python</h3>
                         </figcaption>
@@ -89,7 +117,7 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="./asset/git_original_wordmark_logo_icon_146510.png" alt="">
+                        <img src="./asset/git_original_wordmark_logo_icon_146510.png" alt="Git logo">
                         <figcaption>
                             <h3>Git</h3>
                         </figcaption>
@@ -97,23 +125,43 @@
                 </li>
                 <li>
                     <figure>
-                        <img src="./asset/python_original_wordmark_logo_icon_146382.png" alt="">
+                        <img src="./asset/mongodb_original_wordmark_logo_icon_146425.png" alt="Mongo DB">
                         <figcaption>
-                            <h3>Python</h3>
+                            <h3>Mongo DB</h3>
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="./asset/java_original_wordmark_logo_icon_146459.png" alt="">
+                        <img src="./asset/file_type_vue_icon_130078.png" alt="Vue js">
                         <figcaption>
-                            <h3>java</h3>
+                            <h3>Vue js</h3>
                         </figcaption>
                     </figure>
                 </li>
             </ul>
 
         </section>
+
+        <!-- modale -->
+        <div class="fullscreen-modal appear" id="modale" role="region">
+            <figure>
+                <a href="#"> 
+                    <i class="material-icons" aria-hidden="true">close</i>
+                </a>
+                <img src="./asset/film1.webp" alt="spider man">
+                <figcaption>
+                    <h2>Spider Man</h2>
+                    <p>
+                      <time datetime="2021-02-11">
+                          Date de sortie: 2021
+
+                      </time> 
+                    </p>
+                </figcaption>
+            </figure>
+
+        </div>
     
     </main>
   <footer>

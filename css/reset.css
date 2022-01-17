@@ -30,6 +30,7 @@ blockquote, h1, h2, h3, address{
 button{
     background: transparent;
     font-size: inherit;
+    border: 0;
 }
 a{
     text-decoration: none;
@@ -41,4 +42,8 @@ img{
     height: 100%;
     vertical-align: middle;
     object-fit: cover;
+}
+.material-icons{
+    vertical-align: .5rem;
+    font-size: 3rem;
 }
