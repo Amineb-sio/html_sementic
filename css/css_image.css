@@ -1,0 +1,34 @@
+/* 
+    optimiser en css l'image
+*/
+
+.picture{
+    display: grid;
+    max-width: 120rem;
+    width: 60%;
+    border: solid .1rem #222;
+    margin: 0 auto;
+    
+}
+
+.picture img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+blockquote{
+    margin: 0;
+}
+
+button{
+    padding: 0;
+    background-color: transparent;
+
+}
+
+a{
+    
+}
